@@ -1,2 +1,70 @@
 # InsightPulse
-An AI tool for business owner that performs sales analysis, as sentiment analysis on product reviews and comment and the rating on eBay or Amazon  
+
+**InsightPulse** is an AI-powered tool designed for business owners to:
+
+- 🔍 Perform **sales analysis**
+- 💬 Analyze **sentiments** on product reviews & comments
+- ⭐ Assess **ratings** from platforms like **eBay** or **Amazon**
+- 📊 Return a **comprehensive report** on business performance & customer perception
+
+---
+
+## 📁 Project Structure
+```
+InsightPulse/
+├── data/                  # Raw and processed data
+├── notebooks/             # Jupyter notebooks for EDA & prototyping
+├── src/                   # Source code for the application
+│   ├── scraping/          # Scripts to extract product data & reviews
+│   ├── analysis/          # Sales, sentiment & rating analysis modules
+│   ├── agents/            # AI agent logic for decision making
+│   ├── utils/             # Helper functions
+│   └── main.py            # Entry point of the app
+├── tests/                 # Unit and integration tests
+├── .gitignore             # Files and folders to ignore in Git
+├── LICENSE                # License file (MIT by default)
+├── README.md              # Project overview
+└── requirements.txt       # Python dependencies
+```
+
+---
+
+## ⚙️ Features
+- Real-time or batch scraping of e-commerce platforms
+- Sentiment analysis using pre-trained LLMs or ML models
+- Vendor scoring and reporting
+- Extensible and API-ready architecture
+
+---
+
+## 🚀 Getting Started
+### 1. Clone the Repo
+```bash
+git clone https://github.com/yourusername/InsightPulse.git
+cd InsightPulse
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the App
+```bash
+python src/main.py
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please open issues or submit pull requests.
+
+---
+
+## 📬 Contact
+Created by [Your Name] - feel free to reach out for collaboration!
